@@ -31,5 +31,5 @@ import { Video } from 'react-av-player';
 [npm-badge]: https://img.shields.io/npm/v/react-av-player.png?style=flat-square
 [npm]: https://www.npmjs.org/package/react-av-player
 
-[coveralls-badge]: https://img.shields.io/coveralls/liziyi0914/react-av-player/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/liziyi0914/react-av-player
+[coveralls-badge]: https://coveralls.io/repos/github/liziyi0914/react-av-player/badge.svg?branch=master
+[coveralls]: https://coveralls.io/github/liziyi0914/react-av-player?branch=master
