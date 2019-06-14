@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
 import {render} from 'react-dom'
 
-import Example from '../../src'
+import { Video,Audio } from '../../src'
 
 class Demo extends Component {
   render() {
     return <div>
-      <h1>react-av-player Demo</h1>
-      <Example/>
+      <h1>ReactMedia Demo</h1>
+      <Audio/>
     </div>
   }
 }
