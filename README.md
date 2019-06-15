@@ -4,7 +4,7 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-react-av-player提供视频、音乐播放器，支持多种视频/音乐平台
+react-av-player是一个视频音乐播放器React组件，支持多种视频/音乐平台
 
 # 支持的平台
 |视频|音乐|
@@ -21,14 +21,14 @@ react-av-player提供视频、音乐播放器，支持多种视频/音乐平台
 import { Video } from 'react-av-player';
 
 ...
-<Video type="Youku" args={aid=123,cid=456}/>
+<Video type="Youku" args={{path:'abcd=='}}/>
 ...
 ```
 
-[build-badge]: https://img.shields.io/travis/liziyi0914/react-av-player/master.png?style=flat-square
+[build-badge]: https://img.shields.io/travis/liziyi0914/react-av-player/master.svg
 [build]: https://travis-ci.org/liziyi0914/react-av-player
 
-[npm-badge]: https://img.shields.io/npm/v/react-av-player.png?style=flat-square
+[npm-badge]: https://img.shields.io/npm/v/react-av-player.svg
 [npm]: https://www.npmjs.org/package/react-av-player
 
 [coveralls-badge]: https://coveralls.io/repos/github/liziyi0914/react-av-player/badge.svg?branch=master

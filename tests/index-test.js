@@ -16,7 +16,9 @@ describe('Video', () => {
   })
 
   it('displays a video', () => {
-    render(<Video/>, node)
+    render(<Video/>, node, () => {
+		expect(node.innerHTML).toContain('Video Component')
+	})
   })
 })
 
@@ -32,6 +34,8 @@ describe('Audio', () => {
 	})
 	
 	it('displays a audio', () => {
-		render(<Audio/>, node)
+		render(<Audio/>, node, () => {
+			expect(node.innerHTML).toContain('Audio Component')
+		})
 	})
 })

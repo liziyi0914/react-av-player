@@ -1,6 +1,6 @@
 {
   "name": "react-av-player",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "react-av-player React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -28,10 +28,10 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
-  "author": "",
+  "author": "liziyi0914",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/liziyi0914/react-av-player",
   "keywords": [
     "react-component"
   ]
