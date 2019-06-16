@@ -14,16 +14,18 @@ react-av-player是一个视频音乐播放器React组件，支持多种视频/�
 |爱奇艺||
 |Bilibili||
 |Youtube||
+|TED||
 
 # 使用方式
-## 优酷
 ```javascript
-import { Video } from 'react-av-player';
+import { Video, Audio } from 'react-av-player';
 
 ...
 <Video type="Youku" args={{path:'abcd=='}}/>
+<Audio type="NeteaseMusic" args={{type:0,id:123,auto:1}}>
 ...
 ```
+
 
 [build-badge]: https://img.shields.io/travis/liziyi0914/react-av-player/master.svg
 [build]: https://travis-ci.org/liziyi0914/react-av-player
