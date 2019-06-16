@@ -23,11 +23,23 @@ class Video extends Component {
 			case 'Tencent':
 				url = 'https://v.qq.com/iframe/player.html?vid='+String(args.vid);
 				break;
+			case 'Huya':
+				url = 'http://liveshare.huya.com/iframe/'+String(args.room);
+				break;
 			case 'TED':
 				url = 'https://embed.ted.com/talks/'+String(args.name);
 				break;
 			case 'Youtube':
 				url = 'http://www.youtube.com/embed/'+String(args.path)+'?autoplay=1&controls=0';
+				break;
+			case 'Twitch':
+				url = 'https://player.twitch.tv/?channel='+String(args.room);
+				break;
+			case 'Mixer':
+				url = 'https://mixer.com/embed/player/'+String(args.room);
+				break;
+			case 'XVideos':
+				url = 'https://www.xvideos.com/embedframe/'+String(args.vid);
 				break;
 			default:
 				return <p>Video Component</p>;
@@ -51,6 +63,9 @@ class Audio extends Component {
 		switch(type){
 			case 'NeteaseMusic':
 				url = '//music.163.com/outchain/player?type='+String(args.type)+'&id='+String(args.id)+'&auto='+String(args.auto)+'&height='+String(height);
+				break;
+			case 'Ximalaya':
+				url = 'https://www.ximalaya.com/thirdparty/player/album/player.html?id='+String(args.id)+'&type=red';
 				break;
 			default:
 				return <p>Audio Component</p>;
