@@ -19,6 +19,7 @@ react-av-player是一个视频音乐播放器React组件，支持多种视频/�
 |Twitch||
 |Mixer||
 |XVideos||
+|Redtube||
 
 # 使用方式
 ```javascript

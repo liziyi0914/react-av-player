@@ -41,6 +41,9 @@ class Video extends Component {
 			case 'XVideos':
 				url = 'https://www.xvideos.com/embedframe/'+String(args.vid);
 				break;
+			case 'Redtube':
+				url = 'https://embed.redtube.com/?id='+String(args.id);
+				break;
 			default:
 				return <p>Video Component</p>;
 		}
