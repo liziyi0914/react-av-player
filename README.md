@@ -9,17 +9,17 @@ react-av-player是一个视频音乐播放器React组件，支持多种视频/�
 # 支持的平台
 |视频|音乐|
 |:--:|:--:|
-|优酷|网易云音乐|
-|腾讯视频|喜马拉雅FM|
-|爱奇艺||
-|虎牙直播||
-|Bilibili||
-|Youtube||
-|TED||
-|Twitch||
-|Mixer||
-|XVideos||
-|Redtube||
+|[优酷](https://youku.com/)|[网易云音乐](https://music.163.com/)|
+|[腾讯视频](https://v.qq.com/)|[喜马拉雅FM](https://www.ximalaya.com)|
+|[爱奇艺](https://iqiyi.com/)||
+|[虎牙直播](https://huya.com/)||
+|[Bilibili](https://bilibili.com/)||
+|[Youtube](https://youtube.com/)||
+|[TED](https://ted.com/)||
+|[Twitch](https://twitch.tv/)||
+|[Mixer](https://mixer.com/)||
+|[XVideos](https://xvideos.com/)||
+|[Redtube](https://redtube.com/)||
 
 # 使用方式
 ```javascript
